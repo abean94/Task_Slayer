@@ -1,0 +1,28 @@
+{
+  "hero_name": "TestHero",
+  "char_class": "Code Knight",
+  "stats": {
+    "Strength": 3,
+    "Focus": 5,
+    "Wisdom": 2
+  },
+  "xp": 5,
+  "gold": 0,
+  "inventory": [
+    {
+      "name": "Time Crystal",
+      "cost": 35,
+      "effect": "Skip initiative once"
+    },
+    {
+      "name": "Focus Potion",
+      "cost": 20,
+      "effect": "Gain +5 XP"
+    },
+    {
+      "name": "Time Crystal",
+      "cost": 35,
+      "effect": "Skip initiative once"
+    }
+  ]
+}
