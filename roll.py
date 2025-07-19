@@ -49,6 +49,7 @@ class_perks = {
 task_df = pd.read_excel(EXCEL_FILE, sheet_name='Tickets')
 open_tasks = task_df[task_df['Status'].str.lower() == 'open'].reset_index(drop=True)
 
+#todo make this dynamic - more fun
 shop_items = {
     "Focus Potion": {"cost": 20, "effect": "Gain +5 XP next session"},
     "Time Crystal": {"cost": 35, "effect": "Skip initiative once"},
